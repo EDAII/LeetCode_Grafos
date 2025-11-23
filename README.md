@@ -1,36 +1,66 @@
-# Repositório Template
-Repositório de Template para os projetos da disciplina 
-```
-Nome do Repositório (Apague este tópico)
-  O nome do repositório deve seguir o padrão <TemaProjeto>_<Nome Projeto>.
-  O nome do projeto deve representar o que foi implementado no mesmo (Ex:
-  Game xyz, Implementações Otimizadas de Algoritmos, Aplicativo xpto)
+# Grafo - Algoritmos de manipulação de Grafos
 
-Os temas de projeto são:  
- - Busca - Algoritmos de busca  
- - Ord_quad - Algoritmos de ordenação O(n²)  
- - Ord_nlogn - Algoritmos de ordenação O(n*log(n))  
- - Arv - Algoritmos de manipulação de Árvores  
- - Grafo - Algoritmos de manipulação de Grafos  
- 
- Ex: Busca_ConcorrenteDaGoogle
-```
-## Alunos  
+Repositório destinado à resolução de questões relacionadas a algoritmos de manipulação de grafos.
+
+## Aluno  
 | Matrícula | Nome |  
-|-----------------------|---------------------|  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
-## Descrição do projeto
-Aqui você deve dizer o objetivo deste projeto e o que realmente foi feito neste repositório.
-## Guia de instalação
-Aqui devem estar descritas as dependências do projeto (versões de linguagens e ferramentas) e as instruções necessárias para executar o projeto. 
-### Dependências do projeto
-### Como executar o projeto
-## Capturas de tela
-Neste tópico você deve adicionar imagens do funcionamento do projeto.  
- - As imagens devem ser salvas no repositório.
- - Imagens salvas em domínios eternos tendem a ficar indisponíveis e devem ser evitadas.   
+|------------|-------------------------|  
+| 19/0010495 | Arthur Alves de Matos |
+
+## Descrição do Projeto
+
+O objetivo deste projeto é implementar soluções para problemas de Grafos disponíveis na plataforma **LeetCode**.  
+Cada solução foi desenvolvida em **linguagem C**, com foco em clareza, eficiência e fidelidade aos requisitos das questões propostas.
+
+## Guia de Instalação
+
+**Linguagem:** C  
+**Plataforma de Testes:** [LeetCode](https://leetcode.com)
+
+### Como utilizar as soluções
+
+Cada questão está organizada em uma pasta dentro do diretório `Questoes/`.  
+Para testar o código, deve-se copiar o conteúdo do arquivo e colar diretamente no editor online do LeetCode, na questão correspondente, selecionando a linguagem **C**, e em seguida clicar em **“Submit”** para validar a solução.
+
+## Como Executar o Projeto
+
+Não é necessário compilar ou executar localmente.  
+O fluxo de utilização consiste em:
+
+1. Acessar o problema no **LeetCode** (link disponível na lista de questões abaixo);  
+2. Abrir o arquivo `resposta.c` dentro da pasta da questão correspondente;  
+3. Copiar todo o código;  
+4. Colar o código no editor do LeetCode;  
+5. Submeter na plataforma.
+
+## Questões Implementadas
+
+| Questão  | Dificuldade  |
+|----------|--------------|
+| [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/description/) | Medium |
+| [207. Course Schedule](https://leetcode.com/problems/course-schedule/description/) | Medium |
+| [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/) | Medium |
+| [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/) | Medium |
+
 ## Conclusões
-Aqui você diz se o algoritmo utilizado foi útil, se tem limitações, etc.
-## Referências
-Caso tenha utilizado algum agoritmo como base, citar o mesmo devidamente para  evitar quaisquer denuncias de plágio.
+
+Como resultado das execuções, obtive os seguintes tempos registrados para cada questão em cada submissão:
+
+### 785. Is Graph Bipartite?
+![785. Is Graph Bipartite?](/screenshots/is-graph-bipartite.png)
+
+### 207. Course Schedule
+![207. Course Schedule](/screenshots/course-schedule.png)
+
+### 210. Course Schedule II
+![210. Course Schedule II](/screenshots/course-schedule-ii.png) 
+
+### 841. Keys and Rooms
+![841. Keys and Rooms](/screenshots/keys-and-rooms.png) 
+
+
+## Apresentações de Resolução
+
+Apresentação em vídeo com demonstração da execução e dos testes realizados:  
+
+- [Apresentação]()
